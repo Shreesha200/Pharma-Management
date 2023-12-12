@@ -54,7 +54,9 @@ class PharmacyStore {
         if (stock.isEmpty()) {
             System.out.println("Cannot generate invoice. Stock is empty.\n");
             return;
+
         }
+
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of medicines you want to purchase: ");
